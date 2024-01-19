@@ -1,24 +1,24 @@
 import { Link } from "react-router-dom";
 
-/**A Vending machine for choosing snacks
+/** NavBar
  *
  * Props: None
  *
  * State: None
  */
 
-function VendingMachine() {
+function NavBar() {
   return (
     <div>
 
       <Link to='/cheetos'>
         Cheetos
       </Link>
-      <br></br>
+      <span>           </span>
       <Link to='/champagne'>
         Champagne
       </Link>
-      <br></br>
+      <span>           </span>
       <Link to='/coke'>
         Coke
       </Link>
@@ -26,4 +26,4 @@ function VendingMachine() {
   );
 }
 
-export default VendingMachine;
+export default NavBar;
