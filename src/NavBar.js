@@ -9,16 +9,19 @@ import { Link } from "react-router-dom";
 
 function NavBar() {
   return (
-    <div>
-
+    <div className="NavBar-links">
+      <Link to='/'>
+        Vending Machine
+      </Link>
+      <span> </span>
       <Link to='/cheetos'>
         Cheetos
       </Link>
-      <span>           </span>
+      <span> </span>
       <Link to='/champagne'>
         Champagne
       </Link>
-      <span>           </span>
+      <span> </span>
       <Link to='/coke'>
         Coke
       </Link>

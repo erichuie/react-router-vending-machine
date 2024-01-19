@@ -10,7 +10,6 @@ import { Link } from "react-router-dom";
 function VendingMachine() {
   return (
     <div>
-
       <Link to='/cheetos'>
         Cheetos
       </Link>
